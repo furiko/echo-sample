@@ -9,6 +9,6 @@ services:
     build: .
     image: echo-sample
     ports:
-    - "8080:8080"
+    - "1323:1323"
     volumes:
     - ./:/go/src/github.com/furiko/echo-sample
